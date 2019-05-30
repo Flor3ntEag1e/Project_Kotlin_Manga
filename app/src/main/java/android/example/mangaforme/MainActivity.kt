@@ -87,4 +87,14 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val intent = Intent(this, SearchActivity::class.java)
         startActivity(intent)
     }
+
+    fun onClickBtnRanking(view: View) {
+        val intent = Intent(this, RankingActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onClickBtnFav(view: View) {
+        val intent = Intent(this, FavActivity::class.java)
+        startActivity(intent)
+    }
 }
